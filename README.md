@@ -1,6 +1,11 @@
 # ThesaurusRexAPI
-This repository provides a Python interface to Tony Veale's [Thesaurus Rex](http://ngrams.ucd.ie/therex3/).
-Here's a usage example.
+This repository provides a Python interface to Tony Veale's [Thesaurus Rex](http://ngrams.ucd.ie/therex3/). This code has been written in Python 3, but should also work in Python 2.
+
+## Requirements
+* `requests`
+* `lxml`
+
+## Usage example
 
 ```python
 from thesaurusrex import SingleResult, PairResult
